@@ -1,0 +1,45 @@
+baseURL = 'http://lijy.me/'
+languageCode = 'en-us'
+title = "lijy.me"
+
+[params]
+title = "I'm Kevin Li"
+author = "Kevin Li"
+description = "立身之道，内刚外柔；肥家之道，上逊下顺。不和不可以接物，不严不可以驭下。 ---曾国藩"
+profilePicture = "images/avatar.png"
+copyright = "lijy.me {{ YEAR }}"
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+disableThemeSwitcher = true
+readMore = true
+listDateFormat = "Jan 2"
+
+  [[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "kevinlee607@126.com"
+
+  [[params.socialIcons]]
+  icon = "fab fa-twitter"
+  title = "twitter"
+  url = "https://twitter.com/KevinLe03619011"
+
+  [[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "github"
+  url = "https://github.com/kevinlee607"
+  googleAnalytics = "G-Z1WF730X9M"
+
+[menu]
+  [[menu.main]]
+  name = "首页"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "博客"
+  weight = 200
+  identifier = "post"
+  url = "/posts/"
+
